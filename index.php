@@ -20,10 +20,10 @@
 
 <div id='header'>
 	<div id='topbar'>
-	</div>
-</div>
+	</div> <!-- end topbar -->
+</div> <!-- end header -->
 
-</div>
+</div> <!-- end wrapper -->
 
 </body>
 
