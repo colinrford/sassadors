@@ -1,0 +1,20 @@
+Site with picture PHP/javascript functionality
+http://www.atlanticbt.com/employees.php
+
+Good generic Purude layout
+http://science.purdue.edu/
+
+Font kits:
+https://marketing.purdue.edu/Toolkit/Design/fonts.html
+
+Color Palettes:
+https://marketing.purdue.edu/Toolkit/Design/color.html
+
+Made this site like a week ago, not much, but maybe a little help?:
+http://web.ics.purdue.edu/~eflanaga/John/home.php
+
+
+Tools:
+------------------
+Color Grabber:
+http://www.colorcombos.com/grabcolors.html
