@@ -27,10 +27,11 @@
 
 		<div id='nav_bar'>
 		<ul>
-			<li>Ambassadors</li>
-			<li>Calendar</li>
-			<li>Ed's Great</li>
-			<li>About</li>
+			<li><a href='/'>Ambassadors</a></li>
+			<li><a href='/'>Calendar</a></li>
+			<li><a href='/'>Contact</a></li>
+			<li><a href='/'>Ed's Great</a></li>
+			<li><a href='/'>About</a></li>
 		</ul>
 		</div> <!-- end nav_bar -->
 
@@ -41,10 +42,10 @@
 </div> <!-- end header -->
 
 <div id='main'>
-</div>
+</div> <!-- end main -->
 
 <div id='footer'>
-</div>
+</div> <!-- end footer -->
 
 </div> <!-- end wrapper -->
 
