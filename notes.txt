@@ -1,0 +1,89 @@
+Regarding PHP:
+	John seems to want PHP because of that one site he saw. 
+	It would be useful assuming we have a SQL database of some sort set up
+	- but what would actually be in the database?
+	
+	I'm sure there are all kinds of things we can do with a database, but
+	for the actual functionality/purpose of the site, I can only see 2
+		uses.
+	
+	1). Which John already is sort of thinking of - a table of all the
+	ambassadors names, facts, and picture. 
+		The additional information to the name/picture may prove need
+		enough, instead of having some text file or data struct, or
+		...something, the database tables might be easier to
+		update/maintain, plus it's kinda cool
+
+	2). Question submission. This would be a pretty big, but cool thing to
+	implement - mainly due to security concerns. 
+	A user could submit some sort of text field, name, email, question,
+	etc. and can bd stored in the database - then who knows what we would
+	do with it then
+		There could also be a chat functionality - if we get that up
+		and running, we're golden in website functionality (at least
+		in our personal skills)
+
+	So, in short - I guess, for now, we'll go with a PHP/MySQL approach
+	It should be easy enough - our Purdue web.ics webspace already allows
+	for PHP and MySQL accounts, so we're set there (although the
+		permissions are goofy - so for sure refer back to that email)
+	Plus, it seems what John wants (although, we have more authority - so
+	we could override it)
+	But the PHP can provide additional functionality in the future,
+	potentially/technically (even though I don't see for what really)
+
+	And since it works just the same (kinda) as *.html or whatever, it
+	actually doesn't matter in the least
+
+	To be concerned for the very distant future - if we actually do build
+	this site, the concern is when it's hosted on a different server, by
+	Purdue for Purdue - but since that's ITaP or whomever - it's out of
+	our hands, not out problem, and they will get it working, so it's
+	actually not an issue.
+
+	TL;DR: Using PHP, no (actual) downside, we could do something
+	'interesting' with it
+
+Regarding MySQL:
+	PHP is useless if there is no server for the server-side code to
+	reference (well, not actually, but... yeah)
+
+	The obvious answer to what needs to be dynamically created with the
+	the PHP are the profiles of the ambassadors
+	This can easily be divided into 3 sections
+
+	1). Name
+	2). Info - Blurb/major/interests, etc. - this can be divided into
+	sub-categories
+	3). Reference to picture 
+		The database doesn't store the picture itself, but the name of
+		the photo(s) associated with the ambassador
+		These will be stored in directory system 
+		Probably something along the lines of 
+		./assets/imgs/profiles/*.png
+		./assets/imgs/sprites/*.png
+		All photos in the same place, then sub-categorized by the type
+		of the photo
+		Then there will be a naming system for each photo - for
+		standardization, etc.
+		Something like
+		ed-flanagan_profile.png
+		ed-flanagan_spite.png
+		Then need the conditional for multiple same names - so just
+		increment a number cound
+		
+	Another decision would be the heirarchy of profiles - what are they
+	organized by? The order?
+	Here are some possibilities:
+	Join date (senority)
+	Name (alphabetical)
+	...That's all I have for now, 
+	Then of course multiple organizations - so Senority, then gender, then
+	name
+	All these attributes can be stored in the table - so here's another
+	benefit
+
+I was going to add other stuff, but I forgot what it was...
+Build the site, make it pretty - add pictures and junk
+
+	
