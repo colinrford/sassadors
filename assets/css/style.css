@@ -1,15 +1,38 @@
+/* Fauna One 
+ * Rosario - 700, 400, 400 italic 
+ */
+
 body {
-	font-family: 'Fauna One', serif;
+	margin: 0;
+	padding: 0;
 }
 
-p {
-	font-family: 'Rosario', sans-serif;
-	font-weight: 700;
+#header {
+	background-color: #231F20;
+	border-bottom: 2px solid #e4ae23;
+
+	z-index: 3001;
+	position: relative;
 }
 
-#other {
-	font-weight: 400;
-	font-style: italic;
+#topbar {
+	background-color: #a2782c;
+	padding: 10px 15px;
+}
+
+#global_nav {
+}
+
+#nav_bar li {
+	list-style-type: none;
+	display: inline;
+
+	float: left;
+	margin: 5px; 0 0;
+	width: 100%;
+	min-height: 50px;
+	position: relative;
+	z-index: 3000;
 }
 
 #arrow {

@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 
-	<title>Sassadors</title>
+	<title>College of Science Sassadors</title>
 
 	<link href='assets/css/style.css' rel='stylesheet' type='text/css' />
 	<link href='assets/imgs/icons/coffee64.png' rel='shortcut icon' type='image/x-icon' />
@@ -21,7 +21,30 @@
 <div id='header'>
 	<div id='topbar'>
 	</div> <!-- end topbar -->
+
+	<div id='global_nav'>
+		<a href='/'><img src='assets/imgs/icons/logo.png' /></a>
+
+		<div id='nav_bar'>
+		<ul>
+			<li>Ambassadors</li>
+			<li>Calendar</li>
+			<li>Ed's Great</li>
+			<li>About</li>
+		</ul>
+		</div> <!-- end nav_bar -->
+
+		<div id='social_menu'>
+		</div> <!-- end social_menu -->
+	</div> <!-- end global_nav -->
+
 </div> <!-- end header -->
+
+<div id='main'>
+</div>
+
+<div id='footer'>
+</div>
 
 </div> <!-- end wrapper -->
 
