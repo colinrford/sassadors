@@ -2,7 +2,7 @@
 
 Website for Purdue's College of Science Ambassadors
 
-### Da hell are we doing? ###
+### Da hell we doing? ###
 
 I don't really know, but it's a website. John want's it PHP and stuff. 
 <br />
