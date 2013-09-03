@@ -30,7 +30,7 @@
 			<li><a href='/'>Ambassadors</a></li>
 			<li><a href='/'>Calendar</a></li>
 			<li><a href='/'>Contact</a></li>
-			<li><a href='/'>Ed's Great</a></li>
+			<li><a href='/'>Ed is Great</a></li>
 			<li><a href='/'>About</a></li>
 		</ul>
 		</div> <!-- end nav_bar -->
