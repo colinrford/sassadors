@@ -6,3 +6,12 @@ p {
 	font-family: 'Rosario', sans-serif;
 	font-weight: 700;
 }
+
+#other {
+	font-weight: 400;
+	font-style: italic;
+}
+
+#arrow {
+	cursor: pointer;
+}
