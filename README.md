@@ -11,4 +11,5 @@ He has sites to base if off of - so we're being really creative
  - http://www.atlanticbt.com/employees.php
 
 > Written with [StackEdit](http://benweet.github.io/stackedit/).<br />
+> Looked at by Colin Ford
 > Written by Ed Flanagan
