@@ -42,6 +42,29 @@
 </div> <!-- end header -->
 
 <div id='main'>
+	<div id='side_bar'>
+	<ul>
+		<li><a href='/'>Biological Sciences</a></li>
+		<li><a href='/'>Chemistry</a></li>
+		<li><a href='/'>Computer Science</a></li>
+		<li><a href='/'>Earth, Atmospheric, and Planetary</a></li>
+		<li><a href='/'>Mathematics</a></li>
+		<li><a href='/'>Physics</a></li>
+		<li><a href='/'>Statistics</a></li>
+	</ul>
+	</div> <!-- end side_bar -->
+
+	<div id='box'>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+	</div> <!-- end box -->
 </div> <!-- end main -->
 
 <div id='footer'>

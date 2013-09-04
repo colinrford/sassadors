@@ -21,7 +21,7 @@ body {
 
 #topbar {
 	background-color: #a2782c;
-	padding: 10px 15px;
+	padding: 10px 15px; 
 }
 
 #global_nav {
@@ -43,7 +43,6 @@ body {
 	font-weight: 700;
 
 	/*
-	float: left;
 	margin: 5px; 0 0;
 	width: 100%;
 	min-height: 50px;
@@ -71,6 +70,28 @@ body {
 
 #nav_bar a:hover, a:focus {
 	color: #e4ae23;
+}
+
+#side_bar {
+	display: block;
+	float: left;
+}
+
+#side_bar li {
+	list-style-type: none;
+}
+
+#side_bar a, a:visited {
+	text-decoration: none;
+}
+
+#box {
+	display: block;
+	float: left;
+	margin: 0px auto;
+	padding: 0;
+	background-color: black;
+	color: white;
 }
 
 #arrow {
