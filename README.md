@@ -15,5 +15,6 @@ Also going to derive things from science.purdue.edu and play.google.com
 Derivative, but it'll look nice, and have some good functionality
 
 > Written with [StackEdit](http://benweet.github.io/stackedit/).<br />
+> Looked at by Colin Ford
 > Written by Ed Flanagan<br />
 > Was NOT spell checked (by Ed)
