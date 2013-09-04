@@ -27,10 +27,11 @@
 
 		<div id='nav_bar'>
 		<ul>
-			<li>Ambassadors</li>
-			<li>Calendar</li>
-			<li>Ed's Great</li>
-			<li>About</li>
+			<li><a href='/'>Ambassadors</a></li>
+			<li><a href='/'>Calendar</a></li>
+			<li><a href='/'>Contact</a></li>
+			<li><a href='/'>Ed is Great</a></li>
+			<li><a href='/'>About</a></li>
 		</ul>
 		</div> <!-- end nav_bar -->
 
@@ -41,10 +42,33 @@
 </div> <!-- end header -->
 
 <div id='main'>
-</div>
+	<div id='side_bar'>
+	<ul>
+		<li><a href='/'>Biological Sciences</a></li>
+		<li><a href='/'>Chemistry</a></li>
+		<li><a href='/'>Computer Science</a></li>
+		<li><a href='/'>Earth, Atmospheric, and Planetary</a></li>
+		<li><a href='/'>Mathematics</a></li>
+		<li><a href='/'>Physics</a></li>
+		<li><a href='/'>Statistics</a></li>
+	</ul>
+	</div> <!-- end side_bar -->
+
+	<div id='box'>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+		<p>STUFFFFFF</p>
+	</div> <!-- end box -->
+</div> <!-- end main -->
 
 <div id='footer'>
-</div>
+</div> <!-- end footer -->
 
 </div> <!-- end wrapper -->
 
