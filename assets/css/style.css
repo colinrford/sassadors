@@ -53,14 +53,16 @@ body {
 
 #nav_bar li:before {
 	content: " | ";
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 #nav_bar li:first-child:before {
 	content: none;
-	margin-right: 0;
+	/*
+	margin-right: 0px;
 	margin-left: 0px;
+	*/
 }
 
 #nav_bar a, a:visited {
