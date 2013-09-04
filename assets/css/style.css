@@ -11,6 +11,10 @@ body {
 	font-family: 'Rosario', Arial, Helvetica, sans-serif;
 }
 
+div {
+	border: 1px black solid;
+}
+
 #header {
 	background-color: #231F20;
 	border-bottom: 2px solid #e4ae23;
@@ -81,15 +85,51 @@ body {
 
 #side_bar li {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 #side_bar a, a:visited {
 	text-decoration: none;
+	color: #FFFFFF;
+
+	display: block;
+	padding: 8px;
+	margin: 5px 0;
+}
+
+#bio {
+	background-color: #5d9632;
+}
+
+#chem {
+	background-color: #e4ae23;
+}
+
+#cs {
+	background-color: #00919e;
+}
+
+#earth {
+	background-color: #002745;
+}
+
+#math {
+	background-color: #e37f1c;
+}
+
+#phys {
+	background-color: #9c0058;
+}
+
+#stat {
+	background-color: #695e49;
 }
 
 #box {
 	display: block;
 	float: left;
+	width: 940px;
 	margin: 0px auto;
 	padding: 0;
 	background-color: black;

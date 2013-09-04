@@ -44,13 +44,13 @@
 <div id='main'>
 	<div id='side_bar'>
 	<ul>
-		<li><a href='/'>Biological Sciences</a></li>
-		<li><a href='/'>Chemistry</a></li>
-		<li><a href='/'>Computer Science</a></li>
-		<li><a href='/'>Earth, Atmospheric, and Planetary</a></li>
-		<li><a href='/'>Mathematics</a></li>
-		<li><a href='/'>Physics</a></li>
-		<li><a href='/'>Statistics</a></li>
+		<li><a id='bio' href='/'>Biological Sciences</a></li>
+		<li><a id='chem' href='/'>Chemistry</a></li>
+		<li><a id='cs' href='/'>Computer Science</a></li>
+		<li><a id='earth' href='/'>Earth, Atmospheric, and Planetary</a></li>
+		<li><a id='math' href='/'>Mathematics</a></li>
+		<li><a id='phys' href='/'>Physics</a></li>
+		<li><a id='stat' href='/'>Statistics</a></li>
 	</ul>
 	</div> <!-- end side_bar -->
 
