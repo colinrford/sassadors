@@ -54,6 +54,11 @@
 	</ul>
 	</div> <!-- end side_bar -->
 
+	<div id='subject_text'>
+		<h4>Header</h4>
+		<p>This is the default text that will change on a click of a particular nav bar.</p>
+	</div> <!-- end subject_text -->
+
 	<div id='box'>
 		<p>STUFFFFFF</p>
 		<p>STUFFFFFF</p>

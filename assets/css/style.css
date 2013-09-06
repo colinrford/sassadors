@@ -126,6 +126,11 @@ div {
 	background-color: #695e49;
 }
 
+#subject_text {
+	display: block;
+	float: left;
+}
+
 #box {
 	display: block;
 	float: left;
