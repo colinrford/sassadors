@@ -29,7 +29,8 @@ I don't really know, but it's a website. John want's it to use PHP and stuff.
  - other pages (where links will go to (probably add some dummy ones soon))
 
 ## Site Functionality ##
+Stuff will go here
  
-
 > Written by Ed Flanagan
+<br />
 > Not spell checked by Ed
