@@ -1,15 +1,139 @@
+/* Fauna One 
+ * Rosario - 700, 400, 400 italic 
+ */
+
 body {
-	font-family: 'Fauna One', serif;
+	margin: 0;
+	padding: 0;
+
+	background-color: #FAFAF7;
+
+	font-family: 'Rosario', Arial, Helvetica, sans-serif;
 }
 
-p {
-	font-family: 'Rosario', sans-serif;
+div {
+	border: 1px black solid;
+}
+
+#header {
+	background-color: #231F20;
+	border-bottom: 2px solid #e4ae23;
+
+	z-index: 3001;
+	position: relative;
+}
+
+#topbar {
+	background-color: #a2782c;
+	padding: 10px 15px; 
+}
+
+#global_nav {
+	width: 940px;
+	margin: 0px auto;
+}
+
+#global_nav img {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#nav_bar li {
+	list-style-type: none;
+	display: inline;
+
+	color: #ADADAD;
+
 	font-weight: 700;
+
+	/*
+	margin: 5px; 0 0;
+	width: 100%;
+	min-height: 50px;
+	position: relative;
+	z-index: 3000;
+	*/
 }
 
-#other {
-	font-weight: 400;
-	font-style: italic;
+#nav_bar li:before {
+	content: " | ";
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#nav_bar li:first-child:before {
+	content: none;
+	/*
+	margin-right: 0px;
+	margin-left: 0px;
+	*/
+}
+
+#nav_bar a, a:visited {
+	text-decoration: none;
+	color: #ADADAD;
+}
+
+#nav_bar a:hover, a:focus {
+	color: #e4ae23;
+}
+
+#side_bar {
+	display: block;
+	float: left;
+}
+
+#side_bar li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#side_bar a, a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+
+	display: block;
+	padding: 8px;
+	margin: 5px 0;
+}
+
+#bio {
+	background-color: #5d9632;
+}
+
+#chem {
+	background-color: #e4ae23;
+}
+
+#cs {
+	background-color: #00919e;
+}
+
+#earth {
+	background-color: #002745;
+}
+
+#math {
+	background-color: #e37f1c;
+}
+
+#phys {
+	background-color: #9c0058;
+}
+
+#stat {
+	background-color: #695e49;
+}
+
+#box {
+	display: block;
+	float: left;
+	width: 940px;
+	margin: 0px auto;
+	padding: 0;
+	background-color: black;
+	color: white;
 }
 
 #arrow {

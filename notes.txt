@@ -83,6 +83,12 @@ Regarding MySQL:
 	All these attributes can be stored in the table - so here's another
 	benefit
 
+Images:
+	Logo:
+		Need to photoshop the 'science' to 'ambassadors' 
+		have the font type from that one purdue design standards page
+		make sure to have even spacing & color - shouldn't be too hard
+
 I was going to add other stuff, but I forgot what it was...
 Build the site, make it pretty - add pictures and junk
 
