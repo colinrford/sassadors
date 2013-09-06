@@ -9,7 +9,7 @@ Our dear leader, John, wants to make a (new) website for the science ambassadors
 He wants to the site to look something like this: 
 <br />
  - http://www.atlanticbt.com/employees.php
- 
+ <br />
  The idea is to have a grid of ambassadors' profiles - on the rollover, you can see a little blurb.
  <br />
  Also, you can select other kinds of information (like on the website)
