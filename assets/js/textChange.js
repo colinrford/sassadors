@@ -16,7 +16,7 @@ function textChange(id, item)
 	contents[2] = 'CS is the best!';
 	contents[3] = 'Earth, Atmo, and Planetary are about round things';
 	contents[4] = 'Math is hard - and it fundamentally changes you';
-	contents[5] = 'Phsyics isn\'t that phun';
+	contents[5] = 'Physics isn\'t that phun';
 	contents[6] = 'Stats have histograms and junk';
 
 	var head;
