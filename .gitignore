@@ -1,2 +1,25 @@
 .metadata/
 RemoteSystemsTempFiles/
+
+# Compiled source #
+###################
+*.class
+*.exe
+
+# Packages #
+############
+*.gz
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehtumbs.db
+Thumbs.db
