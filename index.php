@@ -7,7 +7,7 @@
 
 	<title>College of Science Sassadors</title>
 
-	<link href='assets/css/style.css' rel='stylesheet' type='text/css' />
+	<link href='assets/css/page.css' rel='stylesheet' type='text/css' />
 	<link href='assets/imgs/icons/coffee64.png' rel='shortcut icon' type='image/x-icon' />
 	<link href='http://fonts.googleapis.com/css?family=Fauna+One|Rosario:400,400italic,700' rel='stylesheet' type='text/css' />
 
@@ -41,7 +41,7 @@
 
 </div> <!-- end header -->
 
-<div id='main'>
+<div id='side'>
 	<div id='side_bar'>
 	<ul>
 		<li><a id='bio' href='/'>Biological Sciences</a></li>
@@ -55,10 +55,13 @@
 	</div> <!-- end side_bar -->
 
 	<div id='subject_text'>
-		<h4>Header</h4>
+        <h4>Header</h4>
+        <hr />
 		<p>This is the default text that will change on a click of a particular nav bar.</p>
-	</div> <!-- end subject_text -->
+    </div> <!-- end subject_text -->
+</div> <!-- edn side -->
 
+<div id='main'>
 	<div id='box'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis metus quis viverra tincidunt. Vestibulum enim arcu, vulputate vel nunc vitae, rutrum mollis enim. Fusce justo est, faucibus nec congue quis, scelerisque quis sapien. Maecenas et posuere arcu. Nullam gravida consectetur rhoncus. Mauris nec turpis eget nulla ullamcorper fermentum. In id vulputate mauris, a aliquet quam. Quisque lobortis dui a sagittis fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus rutrum pellentesque dictum. Cras fermentum massa nec ipsum sollicitudin, ac tempor ante consequat. Integer dolor ipsum, lacinia eget lacinia eu, porttitor in purus. Praesent rutrum malesuada tempor. Nam pharetra mattis nulla, nec luctus metus vestibulum at.</p>
 

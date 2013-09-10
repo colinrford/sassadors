@@ -12,12 +12,18 @@ body {
 }
 
 div {
-    /*	border: 1px black solid; */
+    /* border: 1px black solid; */
+
+    /*
+    display: block; 
+    float: left;
+    */
 }
 
 #header {
 	background-color: #231F20;
 	border-bottom: 2px solid #e4ae23;
+    width: 100%;
 
 	z-index: 3001;
 	position: relative;
@@ -63,10 +69,10 @@ div {
 
 #nav_bar li:first-child:before {
 	content: none;
-	/*
+    /*
 	margin-right: 0px;
 	margin-left: 0px;
-	*/
+    */
 }
 
 #nav_bar a, a:visited {
@@ -76,6 +82,12 @@ div {
 
 #nav_bar a:hover, a:focus {
 	color: #e4ae23;
+}
+
+#side {
+    display: block;
+    float: left;
+    width: 400px;
 }
 
 #side_bar {
@@ -127,22 +139,43 @@ div {
 }
 
 #subject_text {
+    /*
+    background-color: blue;
     margin: 0;
     padding: 0;
-    margin-top: 330px;
+    margin-top: 1000px;
     width: 280px;
     padding: 7px;
     position: relative;
     overflow: hidden;
+    */
+
+    display: block;
+    float: left;
+    width: 230px;
+    margin-left: 50px;
+    background: #ADADAD;
+    padding: 5px;
+
+}
+
+#main {
+    display: block;
+    float: none;
+    margin-left: 400px;
+    width: 800px;
+    position: center;
 }
 
 #box {
+    /*
+    width: 940px;
+    margin: 10px auto;
     /*
     overflow: hidden;
 	display: block;
 	float: left;
     position: absolute;
-    */
     display: block;
     float: left;
 	width: 940px;
@@ -152,6 +185,7 @@ div {
 	padding: 0;
 	background-color: black;
 	color: white;
+    */
 }
 
 #arrow {
