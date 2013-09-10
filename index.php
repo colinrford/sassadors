@@ -43,8 +43,20 @@
 </div> <!-- end header -->
 
 <div id='side'>
+    <div id='side_icons'>
+        <span class='icon' id='icon_all'></span>
+        <span class='icon' id='icon_bio'></span>
+        <span class='icon' id='icon_chem'></span>
+        <span class='icon' id='icon_cs'></span>
+        <span class='icon' id='icon_earth'></span>
+        <span class='icon' id='icon_math'></span>
+        <span class='icon' id='icon_phys'></span>
+        <span class='icon' id='icon_stats'></span>
+    </div>
+
 	<div id='side_bar'>
-	<ul>
+    <ul>
+        <li><a id='all' href='#'>All</a></li>
 		<li><a id='bio' href='#' onclick='textChange(subject_text, bio)'>Biological Sciences</a></li>
 		<li><a id='chem' href='#'>Chemistry</a></li>
 		<li><a id='cs' href='#'>Computer Science</a></li>
