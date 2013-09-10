@@ -156,12 +156,20 @@ div {
 	margin: 5px 0;
 }
 
+.subjects {
+    opacity: 0.75;
+}
+
+.subjects:hover, .subjects:focus {
+    opacity: 1;
+}
+
 #all {
     background-color: #2D2D2D;
 }
 
 #bio {
-	background-color: #5d9632;
+    background-color: #5D9632;
 }
 
 #chem {
