@@ -11,7 +11,8 @@
 	<link href='assets/imgs/icons/coffee64.png' rel='shortcut icon' type='image/x-icon' />
 	<link href='http://fonts.googleapis.com/css?family=Fauna+One|Rosario:400,400italic,700' rel='stylesheet' type='text/css' />
 
-	<script src='assets/js/upTop.js'></script>
+    <script src='assets/js/upTop.js'></script>
+    <script src='assets/js/test.js'></script>
 </head>
 
 <body>
@@ -44,22 +45,26 @@
 <div id='side'>
 	<div id='side_bar'>
 	<ul>
-		<li><a id='bio' href='/'>Biological Sciences</a></li>
-		<li><a id='chem' href='/'>Chemistry</a></li>
-		<li><a id='cs' href='/'>Computer Science</a></li>
-		<li><a id='earth' href='/'>Earth, Atmospheric, and Planetary</a></li>
-		<li><a id='math' href='/'>Mathematics</a></li>
-		<li><a id='phys' href='/'>Physics</a></li>
-		<li><a id='stat' href='/'>Statistics</a></li>
+		<li><a id='bio' href='#' onclick='textChange(subject_text, bio)'>Biological Sciences</a></li>
+		<li><a id='chem' href='#'>Chemistry</a></li>
+		<li><a id='cs' href='#'>Computer Science</a></li>
+		<li><a id='earth' href='#'>Earth, Atmospheric, and Planetary</a></li>
+		<li><a id='math' href='#'>Mathematics</a></li>
+		<li><a id='phys' href='#'>Physics</a></li>
+		<li><a id='stat' href='#'>Statistics</a></li>
 	</ul>
 	</div> <!-- end side_bar -->
 
-	<div id='subject_text'>
+    <div id='subject_text'>
+        NOT WORKING!
+        <!--
         <h4>Header</h4>
         <hr />
-		<p>This is the default text that will change on a click of a particular nav bar.</p>
+        <p>This is the default text that will change on a click of a particular nav bar.</p>
+        -->
     </div> <!-- end subject_text -->
-</div> <!-- edn side -->
+    <script src='assets/js/test()'></script>
+</div> <!-- end side -->
 
 <div id='main'>
 	<div id='box'>

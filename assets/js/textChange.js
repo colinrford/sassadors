@@ -1,5 +1,9 @@
+textChange(subject_text, std);
+
 function textChange(id, item)
 {
+    document.getElementById(id).innerHTML="WORKING!";
+
 	var headers = new Array();
 	var contents = new Array();
 
@@ -29,7 +33,7 @@ function textChange(id, item)
 		case "bio":
 			head = headers[0];
 			content = contents[0];
-			document.getElementById(id).innerHTML = head;
+			document.getElementById(id).innerHTML = "TESTING BITCH!";
             break;
         case "chem":
             head = headers[1];
