@@ -7,7 +7,7 @@
 
 	<title>College of Science Sassadors</title>
 
-	<link href='assets/css/style.css' rel='stylesheet' type='text/css' />
+	<link href='assets/css/test.css' rel='stylesheet' type='text/css' />
 	<link href='assets/imgs/icons/coffee64.png' rel='shortcut icon' type='image/x-icon' />
 	<link href='http://fonts.googleapis.com/css?family=Fauna+One|Rosario:400,400italic,700' rel='stylesheet' type='text/css' />
 
@@ -55,16 +55,14 @@
     </div>
 
 	<div id='side_bar'>
-    <ul>
-        <li><a class='subjects' id='all' href='#'>All</a></li>
-		<li><a class='subjects' id='bio' href='#' onclick='textChange(subject_text, bio)'>Biological Sciences</a></li>
-		<li><a class='subjects' id='chem' href='#'>Chemistry</a></li>
-		<li><a class='subjects' id='cs' href='#'>Computer Science</a></li>
-		<li><a class='subjects' id='earth' href='#'>Earth, Atmospheric, and Planetary</a></li>
-		<li><a class='subjects' id='math' href='#'>Mathematics</a></li>
-		<li><a class='subjects' id='phys' href='#'>Physics</a></li>
-		<li><a class='subjects' id='stat' href='#'>Statistics</a></li>
-	</ul>
+        <span class='subjects' id='all'> All</span>
+		<span class='subjects' id='bio'>Biological Sciences</span>
+		<span class='subjects' id='chem'>Chemistry</span>
+		<span class='subjects' id='cs'>Computer Science</span>
+		<span class='subjects' id='earth'>Earth, Atmospheric, and Planetary</span>
+		<span class='subjects' id='math'>Mathematics</span>
+		<span class='subjects' id='phys'>Physics</span>
+		<span class='subjects' id='stat'>Statistics</span>
 	</div> <!-- end side_bar -->
 
     <div id='subject_text'>

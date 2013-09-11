@@ -1,20 +1,37 @@
-## Sassadors ##
+Sassadors
+========
 
 Website for Purdue's College of Science Ambassadors
 
-### Da hell we doing? ###
+## What's going on? ##
+Our dear leader, John, wants to make a (new) website for the science ambassadors. 
+<br />
+He wants to the site to look something like this: 
+<br />
+ - http://www.atlanticbt.com/employees.php
+ <br />
+ The idea is to have a grid of ambassadors' profiles - on the rollover, you can see a little blurb.
+ <br />
+ Also, you can select other kinds of information (like on the website)
 
+## About the Repo ##
+As of now - the repo is organized as such:
 I don't really know, but it's a website. John want's it to use PHP and stuff. 
 <br />
-He has sites to base if off of - so we're being really creative 
+ - index.php - the home page, using php for future php functionality
+ - assets - contains sub folders:
+ 	- css - css files
+	- imgs 
+		- icons
+		- profiles
+		- sprites
+	- js - javascript
+ - other pages (where links will go to (probably add some dummy ones soon))
 
- - http://www.atlanticbt.com/employees.php
 
-Also going to derive things from science.purdue.edu and play.google.com
+## Site Functionality ##
+Stuff will go here
+ 
+> Written by Ed Flanagan
 <br />
-Derivative, but it'll look nice, and have some good functionality
-
-> Written with [StackEdit](http://benweet.github.io/stackedit/).<br />
-> Looked at by Colin Ford
-> Written by Ed Flanagan<br />
-> Was NOT spell checked (by Ed)
+> Not spell checked by Ed
